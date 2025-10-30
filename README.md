@@ -1,10 +1,10 @@
 **Week 4 Assignment: AI in Software Engineering – “Building Intelligent Software Solutions”**
 # 🧠 Week 4 Assignment: AI in Software Engineering
 ### Theme: Building Intelligent Software Solutions 💻🤖  
-**Name:** [Your Name]  
+**Name:** Kipkoech Laban  
 **Course:** AI in Software Engineering  
 **Week:** 4  
-**Submission Date:** [Insert Date]  
+**Submission Date:** 30/10/2025 
 
 ---
 
@@ -16,7 +16,7 @@ This project explores how Artificial Intelligence enhances software engineering 
 
 ---
 
-##  Part 1: Theoretical Analysis (30%)
+##  Part 1: Theoretical Analysis 
 
 ### **Q1. How AI-Driven Code Generation Tools Reduce Development Time**
 AI tools like **GitHub Copilot** and **Tabnine** speed up development by predicting code completions, generating boilerplate, and suggesting entire functions. They learn from millions of public repositories, enabling context-aware suggestions that minimize manual coding effort.
@@ -58,7 +58,7 @@ AIOps enhances DevOps by combining automation and intelligence to detect issues 
 
 ---
 
-##  Part 2: Practical Implementation (60%)
+##  Part 2: Practical Implementation
 
 ### **Task 1: AI-Powered Code Completion**
 
@@ -79,7 +79,7 @@ def sort_by_key(data, key):
     return sorted(data, key=lambda x: x.get(key, ''))
 ```
 
-**Analysis (200 Words)**
+**Analysis**
 
 Copilot generated a more fault-tolerant version that handles empty data and missing keys gracefully. The manual code is simpler but assumes all keys exist. While both achieve O(n log n) time complexity, the AI code is safer for production use. The AI tool accelerated my workflow by reducing boilerplate and suggesting syntax instantly, though it required human review for optimization and clarity. Overall, Copilot improves efficiency by focusing developer effort on higher-level logic rather than syntax.
 
@@ -123,7 +123,7 @@ driver.quit()
 
 <img width="702" height="104" alt="Screenshot 2025-10-30 122939" src="https://github.com/user-attachments/assets/9d89cc0c-b623-4234-b9ce-3f2e9b16f040" />
 
-**Summary (150 Words)**
+**Summary**
 
 AI-enhanced test tools like Testim.io automatically detect UI elements even when layouts change, reducing script maintenance. This improves test coverage and stability compared to manual tests. The AI also prioritizes common user paths and predicts high-risk interactions, ensuring broader coverage with fewer scripts. Overall, AI transforms testing from reactive to proactive, identifying potential UI or logic issues before deployment.
 
@@ -162,10 +162,10 @@ print("F1 Score:", f1_score(y_test, y_pred, average='weighted'))
 
 <img width="422" height="82" alt="Screenshot 2025-10-30 130305" src="https://github.com/user-attachments/assets/8c79c7c2-c65c-4598-9697-f498ab43e910" />
 
-**Part 3: Ethical Reflection (10%)**
+**Part 3: Ethical Reflection**
 The dataset used may contain imbalanced samples that overrepresent certain cases. If the model relies heavily on such data, it could misclassify underrepresented cases. Using fairness libraries like IBM AI Fairness 360 can evaluate disparities in performance metrics (e.g., accuracy per group) and apply bias correction algorithms such as reweighting or adversarial debiasing to ensure equitable predictions. Ethical awareness is essential to prevent harmful automation and maintain trust in AI-driven decisions.
 
-**Bonus Task: Innovation Challenge (Extra 10%)**
+**Bonus Task: Innovation Challenge**
 AI-Powered Documentation Assistant
 
 # Purpose:
@@ -192,6 +192,4 @@ Jupyter Notebook
 
 IBM AI Fairness 360 (conceptual)
 
-**Author:** Kipkoech Laban
-**Institution:** PLP africa.
-**Date:** 30/10/2025
+
