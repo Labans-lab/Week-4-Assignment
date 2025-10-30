@@ -66,7 +66,7 @@ AIOps enhances DevOps by combining automation and intelligence to detect issues 
 **Goal:** Compare AI-suggested vs manual implementation of a sorting function.
 
 #### Manual Code
-```python
+```
 def sort_by_key(data, key):
     return sorted(data, key=lambda x: x[key])
 ```
