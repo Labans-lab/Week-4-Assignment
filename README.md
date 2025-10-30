@@ -118,8 +118,11 @@ assert "Invalid" in driver.page_source
 
 driver.quit()
 ```
+
 **Screenshot of Results**
+
 <img width="702" height="104" alt="Screenshot 2025-10-30 122939" src="https://github.com/user-attachments/assets/9d89cc0c-b623-4234-b9ce-3f2e9b16f040" />
+
 **Summary (150 Words)**
 
 AI-enhanced test tools like Testim.io automatically detect UI elements even when layouts change, reducing script maintenance. This improves test coverage and stability compared to manual tests. The AI also prioritizes common user paths and predicts high-risk interactions, ensuring broader coverage with fewer scripts. Overall, AI transforms testing from reactive to proactive, identifying potential UI or logic issues before deployment.
@@ -137,15 +140,16 @@ from sklearn.datasets import load_breast_cancer
 ```
 
 **Load the breast cancer dataset from scikit-learn**
-``
+```
 cancer = load_breast_cancer()
 X = pd.DataFrame(cancer.data, columns=cancer.feature_names)
 y = pd.Series(cancer.target).map({0: 'High', 1: 'Low'}) # Map target to 'High' and 'Low'
-``
+```
 
 **No need to drop NaNs as the scikit-learn dataset is clean**
-``
+```
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
 
 model = RandomForestClassifier(random_state=42)
 model.fit(X_train, y_train)
@@ -159,7 +163,35 @@ print("F1 Score:", f1_score(y_test, y_pred, average='weighted'))
 <img width="422" height="82" alt="Screenshot 2025-10-30 130305" src="https://github.com/user-attachments/assets/8c79c7c2-c65c-4598-9697-f498ab43e910" />
 
 **Part 3: Ethical Reflection (10%)**
-
 The dataset used may contain imbalanced samples that overrepresent certain cases. If the model relies heavily on such data, it could misclassify underrepresented cases. Using fairness libraries like IBM AI Fairness 360 can evaluate disparities in performance metrics (e.g., accuracy per group) and apply bias correction algorithms such as reweighting or adversarial debiasing to ensure equitable predictions. Ethical awareness is essential to prevent harmful automation and maintain trust in AI-driven decisions.
 
+**Bonus Task: Innovation Challenge (Extra 10%)**
+AI-Powered Documentation Assistant
 
+# Purpose:
+Automatically generate technical documentation from code comments and Git commits.
+
+# Workflow:
+
+Analyze codebase using NLP.
+Extract function docstrings and commit messages.
+Generate structured Markdown or Sphinx documentation.
+
+# Impact:
+Saves developer time, ensures up-to-date documentation, and bridges communication between developers and project managers.
+
+**Tools Used**
+
+GitHub Copilot / Tabnine
+
+Selenium IDE / Testim.io
+
+Scikit-learn, Pandas, Matplotlib
+
+Jupyter Notebook
+
+IBM AI Fairness 360 (conceptual)
+
+**Author:** Kipkoech Laban
+**Institution:** PLP africa.
+**Date:** 30/10/2025
